@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Best Tractors</title>
+    <style>
+        .flex{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .flex-item-1{
+            flex:1;
+            background-color: white;
+        }
+        .flex-item-2{
+            flex:2;
+            background-color: red;
+        }
+        .flex-item-3{
+            flex:1;
+            background-color: rgb(24, 107, 24);
+        }
+        .flex-item-4{
+            flex:1;
+            background-color: white;
+        }
+        .flex div{
+            margin: 5px;
+            padding: 10px;
+            text-align: center;
+        }
+        .tractor-flex{
+            width:99%;
+            height: auto;
+        }
+        p {
+	      text-align: justify;
+        }
+         /* Media Query for mobile phone*/
+        @media(max-width:480px){
+            .flex{
+                flex-direction:column;
+            }
+            .flex-item-1, .flex-item-2, .flex-item-3 {
+                width:100%;
+                background-color: lightblue;
+            }
+            *{
+                font-size: 50px;
+            }
+        }
+        /* Media Query for desktop*/
+        @media(min-width:1024px){
+            .flex{
+                background-color: rgb(24, 107, 24);
+            }
+        }
+​
+    </style>
+</head>
+<body>
+    <div class="flex">    <!-- Section 1 Flexbox-->
+        <div class="flex-item-1">  <!-- Section 1 Left Side-->
+            <img class="tractor-flex" src="far1a.jpg" alt="farma">
+        </div>
+   </div>
+   <div class="flex">    <!-- Section 1 Flexbox-->
+        <div class="flex-item-1">  <!-- Section 1 Left Side-->
+            <a href="us.html">
+             About Us
+            </a>
+        </div>
+        <div class="flex-item-1"> <!-- Section 1 Middle Side-->
+            <a href="t_list.html">
+             Tractors  
+            </a> 
+        </div>
+        <div class="flex-item-1"> <!-- Section 1 Middle Side-->
+            <a href="m_list.html">
+            Machinery  
+            </a>
+        </div>
+        <div class="flex-item-1"> <!-- Section 1 Right Side-->
+            <a href="contact_formular.html">
+             Contact
+            </a>
+        </div>
+   </div>
+   <div class="flex"> <!-- Section 2 Flexbox-->
+        <div class="flex-item-1"> <!-- Section 2 Left Side-->
+            <h2>Outstanding opportunity!!!</h2>
+        </div>
+        <div class="flex-item-1"> <!-- Section 2 Right Side-->
+            <h2>Why buy from us?</h2>
+        </div>
+   </div>
+   <div class="flex">                       <!-- Section 3 Flexbox-->
+        <div class="flex-item-1">           <!-- Section 3 Left Side-->
+            <div class="flex">              <!-- Section 3 Sub Flexbox of Left Side-->
+                <div class="flex-item-3">   <!-- Sub Section 3 Left Side-->
+                    <a href="order">
+                        <img class="tractor-flex" src="GT1.jpg" alt="Tractor"> 
+                    </a>
+                </div>
+                <div class="flex-item-1">   <!-- Sub Section 3 Right Side-->
+                    <h4>Technical Data</h4>
+                       
+                        <ul style="align-items: left">
+                             <li>capacity</li>
+                             <li>power</li>
+                             <li>weight</li>
+                             <li>speed</li>
+                             <li>Girl is not included :-)</li>
+                        </ul> 
+                </div>
+            </div>
+        </div>
+        <div class="flex-item-4">           <!-- Section 3 Right Side-->
+            <p>
+             At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. Element
+            </p>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.</p>
+        </div>
+   </div>
+</body>
+</html>
